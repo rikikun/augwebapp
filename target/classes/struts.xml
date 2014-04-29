@@ -10,6 +10,8 @@
 		</action>
 		<action name="welcome" class="com.aug.user.action.WelcomeUserAction">
 			<result name="SUCCESS">welcome.jsp</result>
+			<result name="ERROR">error.jsp</result>
+			<result name="input">login.jsp</result>
 		</action>
 
 	</package>
